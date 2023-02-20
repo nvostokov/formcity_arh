@@ -350,10 +350,10 @@ input:focus ~ .highlight {
   position: absolute;
   left: 0;
   bottom: -2px;
-  background: url(/img/off.svg) 0 0 no-repeat; }
+  background: url(../img/off.svg) 0 0 no-repeat; }
 
 .form__radio input[type=radio]:checked + label:before {
-  background: url(/img/on.svg) 0 0 no-repeat; }
+  background: url(../img/on.svg) 0 0 no-repeat; }
 
 /* Hover */
 .form__radio label:hover:before {
