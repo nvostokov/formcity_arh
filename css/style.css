@@ -381,3 +381,58 @@ input:focus ~ .highlight {
         -ms-flex: 0 1 100%;
             flex: 0 1 100%; } }
 /*# sourceMappingURL=style.css.map */
+
+.page__404 {
+  margin: 300px auto 0 auto;
+}
+.body-404 {
+  font-size: 28px;
+  text-align: center;
+  font-weight: 700;
+}
+.class-404 {
+  color: #3D5C99;
+  font-size: 170px;
+}
+.body-404 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 0 20px;
+  width: 180px;
+  height: 50px;
+  background-color: #3D5C99;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.5s;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  border: 1px solid #314179;
+  /* color: #3D5C99; */
+/*   transition: all 0.3s ease-in;
+  text-decoration: underline 2px rgba(255, 255, 255, 0); */
+}
+/* .body-404 a:hover {
+  text-decoration-color: rgba(61, 92, 153, 1);
+} */
+.link-404 {
+  display: flex;
+  justify-content: center;
+}
+.body-404 a:hover {
+  background-color: #486cb3;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.2);
+}
+.body-404 a:active {
+  position:relative;
+  top:1px;
+}
+
+@media (max-width: 767px) {
+  .page__404 {
+    margin: 220px auto 0 auto;
+  }
+  .class-404 {
+    font-size: 150px;
+  }
+}
